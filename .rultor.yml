@@ -1,3 +1,7 @@
+docker:
+  as_root: true
+  image: hanswesterbeek/google-debian-oracle-jdk:8
+
 merge:
 	script:
 		mvn clean install
