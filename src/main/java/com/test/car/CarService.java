@@ -28,7 +28,7 @@ public class CarService {
 
     public void update(Car car) {
         if (!database.containsKey(car.getId())) {
-            throw new IllegalArgumentException("Car doest not exists!");
+            throw new IllegalArgumentException("Car does not exists!");
         }
         database.put(car.getId(), car);
     }
