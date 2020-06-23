@@ -1,0 +1,7 @@
+docker:
+  as_root: true
+  image: vertigomedia/ubuntu-jdk8
+
+merge:
+	script:
+		mvn clean install
